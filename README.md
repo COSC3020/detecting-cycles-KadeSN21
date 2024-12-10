@@ -16,4 +16,4 @@ the function and run automatically when you commit through a GitHub action.
 What is the worst-case big $\Theta$ complexity of your implementation? Add your
 answer, including your reasoning, to this markdown file.
 
-The worst case $\Theta$ complexity of this algorithm is $\Theta(V + E)$, the for loop in "hasCycle" that recursivley calls "dfs" itterates over all $V$ verticies in the graph, which takes $\Theta(V)$ time, the for loop in "dfs" itterates over all edges or "neighbors" for each vertice, this takes $\Theta(E)$ time where $E$ is the number of edges in the graph. In a worst case scenario, all vertices and edges must be explored, which gives us $\Theta(V + E)$
+The worst case $\Theta$ complexity of this algorithm is $\Theta(V + E)$, the for loop in "hasCycle" that recursivley calls "dfs" itterates over all $V$ verticies in the graph, which takes $\Theta(V)$ time, the for loop in "dfs" itterates over all edges or "neighbors" for each vertex, this takes $\Theta(E)$ time where $E$ is the number of edges in the graph. In a worst case scenario, all vertices and edges must be explored, which gives us $\Theta(V + E)$
