@@ -17,3 +17,7 @@ What is the worst-case big $\Theta$ complexity of your implementation? Add your
 answer, including your reasoning, to this markdown file.
 
 The worst case $\Theta$ complexity of this algorithm is $\Theta(V + E)$, the for loop in "hasCycle" that recursivley calls "dfs" itterates over all $V$ verticies in the graph, which takes $\Theta(V)$ time, the for loop in "dfs" itterates over all edges or "neighbors" for each vertice, this takes $\Theta(E)$ time where $E$ is the number of edges in the graph. In a worst case scenario, all vertices and edges must be explored, which gives us $\Theta(V + E)$
+
+Help: refferenced TedDay5's repo, as well as https://www.geeksforgeeks.org/depth-first-search-or-dfs-for-a-graph/ for more information on depth first searching. I also referenced my detecting-isomorphism for a bases for the test code which I altered to work with this algorithm.
+
+“I certify that I have listed all sources used to complete this exercise, including the use of any Large Language Models. All of the work is my own, except where stated otherwise. I am aware that plagiarism carries severe penalties and that if plagiarism is suspected, charges may be filed against me without prior notice.”
